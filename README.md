@@ -1,0 +1,6 @@
+#  RepoBot
+'cause I dunno why tf I was trying to have an LLM do templated project docs management and updates for me, so now we're doing it properly
+
+macOS gui app (with menu bar scene) for managing, and updating, all those identical software project docs that get updated sometimes and then somehow the changes have to find their way into 100 repos and get staged and committed and pushed and maybe even merged via pr. i prefer them automated...
+got a nice gui in mind for setting up the preffered git workflow to use, and conditions and whatever...
+oughta pop in an MCP, too with the swift SDK for that.
