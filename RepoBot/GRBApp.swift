@@ -1,12 +1,12 @@
 import SwiftUI
 
-@main struct MyApp: App {
+@main struct GRBApp: App {
     var body: some Scene {
 
 // TODO: - Add Menu Bar Scene after designing rest of UI
 
         WindowGroup {
-            ContentView()
+			GRBRootView()
         }
     }
 }
