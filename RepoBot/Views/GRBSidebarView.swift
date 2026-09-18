@@ -10,7 +10,9 @@ import SwiftUI
 struct GRBSidebarView: View {
     var body: some View {
 
-// Likely a List of ProjectType where ProjectType.isActive is true
+			// Likely a List of ProjectType where ProjectType.isActive is true
+
+			// Implicit NavigationView() from enclosing NavigationSplitView()
 
 		/*@START_MENU_TOKEN@*/Text("Sidebar")/*@END_MENU_TOKEN@*/
     }

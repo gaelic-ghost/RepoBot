@@ -11,6 +11,8 @@ struct GRBRootView: View {
     var body: some View {
 
 		// TODO: - Add toolbar
+		// TODO: - Eval 2-col NavSplit w/ trailing .inspector as alternative opt
+		// TODO: - Add coliumn vis preference if sticking w/ third column
 
 		NavigationSplitView {
 			GRBSidebarView()

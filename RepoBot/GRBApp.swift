@@ -11,5 +11,8 @@ import SwiftUI
         WindowGroup {
 			GRBRootView()
         }
+		Settings() {
+			GRBSettingsView()
+		}
     }
 }
