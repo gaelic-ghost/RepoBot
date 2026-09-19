@@ -1,6 +1,8 @@
 import SwiftUI
 
 @main struct GRBApp: App {
+
+
     var body: some Scene {
 
 			// TODO: - Add Menu Bar Scene after designing rest of UI
@@ -11,6 +13,11 @@ import SwiftUI
         WindowGroup {
 			GRBRootView()
         }
+
+		// Grab LocalizedStringResource as pref, maybe? I forget, double check this later... Might just want a WindowGroup for this, tbh...
+		Window(<#T##titleResource: LocalizedStringResource##LocalizedStringResource#>, id: "mdTemplating") {
+			// GRBMDTemplatingView here..?
+		}
 		Settings() {
 			GRBSettingsView()
 		}
